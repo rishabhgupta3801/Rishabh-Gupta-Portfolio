@@ -15,9 +15,13 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.color{
+    color: rgb(62, 60, 60);
+    cursor: pointer;
+}
 
 .form{
-    max-width: 65%;
+    width: 100%;
     /* margin: auto; */
     padding: 0 16px;
     padding-bottom: 20px;
@@ -70,8 +74,16 @@
 .IMGconnect a{
     display: flex;
     justify-content: center;
-    width: 80%;
+    padding: 12% 20px;
+    /* width: 0%; */
     cursor:default;
+}
+
+.fa-brands, .fab{
+    /* display: flex;
+    justify-content: center;
+    width: 80%; */
+    cursor: pointer;
 }
 
 .connection{

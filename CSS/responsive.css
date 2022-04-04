@@ -115,8 +115,9 @@
     }
     
     .IMGconnect a{
-        width: 100%;
-        padding: 6px 0;
+        width: 50%;
+        margin: auto;
+        padding: 35px 0;
     }
 
     .IMAGES{

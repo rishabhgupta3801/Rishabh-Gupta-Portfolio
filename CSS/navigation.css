@@ -98,7 +98,7 @@
     position: absolute;
     cursor: pointer;
     left: 5px;
-    top: 10px;
+    top: 15px;
 }
 
 .line{
@@ -106,4 +106,24 @@
     background-color: white;
     height: 4px;
     margin: 5px 3px;
+}
+
+.icon #bar1{
+    transform: translateY(-4px);
+}
+
+.icon #bar3{
+    transform: translateY(4px);
+}
+
+.icon #bar1{
+    transform: translateY(2px) rotate(-45deg);
+}
+
+.icon #bar2{
+    opacity: 0;
+}
+
+.icon #bar3{
+    transform: translateY(-16px) rotate(45deg);
 }
